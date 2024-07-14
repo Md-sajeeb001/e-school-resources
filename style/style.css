@@ -107,8 +107,7 @@ nav ul li a:hover{
 .education-cart-section{
     width: 1140px;
     height: 280px;
-    margin: 8rem auto;
-    
+    margin: 8rem auto;  
 }
 .education-cart{
     display: flex;
@@ -147,3 +146,62 @@ nav ul li a:hover{
     margin-bottom: 1rem;
 }
 /* ===================EDUCATION CART SECTION END HERE====================== */
+
+/* ===================ONLINE CLASS SECTION START HERE====================== */
+.online-class-section{
+    width: 1140px;
+    height: 600px;
+    margin: 0 auto; 
+}
+.online-class-section h2{
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 3rem 0;
+}
+.online-class-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.online-items{
+    width: 350px;
+    height: 450px;
+    padding: 1rem;
+    border-radius: .8rem;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0,0.3);
+}
+.online-items img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.online-items h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    word-spacing: .4rem;
+    letter-spacing: 1px;
+}
+.online-items p{
+    margin: .6rem 0;
+    padding-bottom: .5rem;
+}
+.flex-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: .1rem;
+
+}
+.little-content img{
+    width: 13%;
+}
+.little-content p{
+    margin-left: .3rem;
+}
+.little-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+/* ===================ONLINE CLASS SECTION END HERE====================== */
