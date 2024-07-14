@@ -36,6 +36,9 @@ nav ul{
 nav ul li{
     margin-left: 2.5rem;
 }
+#align-button{
+    margin-left: 2rem;
+}
 nav ul li a{
     font-size: 1rem;
     font-weight: 400;
@@ -98,3 +101,49 @@ nav ul li a:hover{
 .content-section img{
     width: 55%;
 }
+/* ===================HEADER & NAVBER & BANNER SECTION end HERE====================== */
+
+/* ===================EDUCATION CART SECTION START HERE====================== */
+.education-cart-section{
+    width: 1140px;
+    height: 280px;
+    margin: 8rem auto;
+    
+}
+.education-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-items{
+    width: 260px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(219, 255, 239, 0.644);
+    box-shadow: 0px 2px 5px rgb(0, 0, 0,0.2);
+    border-radius: .6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cart-items:hover{
+    transform: translateY(-5px);
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0,0.3);
+}
+.cart-items h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.cart-items p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: .7rem;
+}
+.cart-items img{
+    width: 30%;
+    margin-bottom: 1rem;
+}
+/* ===================EDUCATION CART SECTION END HERE====================== */
